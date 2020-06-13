@@ -220,7 +220,7 @@ button {
 /* Hero */
 
 .hero {
-  max-width: 1600px;
+  /* max-width: 1600px; */
   height: 600px;
 
   background: url(../images/hero.jpg) no-repeat;
