@@ -115,6 +115,18 @@ button {
   fill: var(--accent-color);
 }
 
+.adress-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.phone-icon {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+}
+
 /* Logo */
 
 .header-logo,
@@ -223,7 +235,8 @@ button {
   /* max-width: 1600px; */
   height: 600px;
 
-  background: url(../images/hero.jpg) no-repeat;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
